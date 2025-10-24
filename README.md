@@ -1,18 +1,51 @@
-## Getting Started
+**Restaurant Management System (Java + Swing)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop-based restaurant management system built using Java Swing.
+This project helps restaurants manage their menu, orders, and bills efficiently through a graphical user interface.
 
-## Folder Structure
+Features->
 
-The workspace contains two folders by default, where:
+- Login System
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Secure admin login to access the application.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Dashboard
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Central control panel to navigate all modules.
 
-## Dependency Management
+= Menu Manager
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Add, view, and delete menu items.
+
+- Attach images to menu items.
+
+- Display menu in a visual grid format.
+
+- Order Manager
+
+- Select menu items, set quantities, and calculate totals.
+
+- Displays current order list with total amount in real-time.
+
+- Bill Generator
+
+Generates detailed customer bills including:
+
+- Item breakdown
+
+- Date and time
+
+= Tax calculation (5%)
+
+- Subtotal and Grand Total
+
+- Option to print or save the bill as a text file.
+
+- File Save Support
+
+- Bills are saved locally for later reference.
+
+- Database Ready
+
+= Can be extended to use MySQL database with JDBC connection.
+
